@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.elaneri.quantumrandom.ui.Abaut.AbautFragment"
+        android:name="com.elaneri.quantumrandom.ui.about.AboutFragment"
         android:label="@string/menu_config"
         tools:layout="@layout/fragment_about" />
 </navigation>

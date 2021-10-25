@@ -1,4 +1,4 @@
-package com.elaneri.quantumrandom.ui.Abaut;
+package com.elaneri.quantumrandom.ui.about;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
