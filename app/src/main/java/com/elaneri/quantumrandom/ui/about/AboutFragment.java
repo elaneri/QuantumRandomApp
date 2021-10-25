@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,6 +28,10 @@ public class AboutFragment extends Fragment {
             public void onChanged(@Nullable String s) {
             }
         });
+
+        WebView myWebView = (WebView) root.findViewById(R.id.about);
+        myWebView.loadUrl("https://github.com/elaneri/QuantumRandomApp/wiki");
+
         return root;
     }
 }
